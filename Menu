@@ -1,58 +1,77 @@
-from flask import Flask, render_template
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
+---
+layout: page
+title: ISO 10012:2003 in Gas Stations
+---
 
-app = Flask(__name__)
+# ISO 10012:2003 in Gas Stations
 
-@app.route('/')
-def home():
-    return render_template('index.html')
+ISO 10012:2003 is a standard that outlines the requirements for measurement management systems. In gas stations, this standard is particularly important to ensure that measurements related to fuel and other products are accurate and reliable. The implementation of a measurement management system that complies with ISO 10012:2003 can help gas stations to improve their operations and meet regulatory requirements.
 
-@app.route('/menu')
-def menu():
-    return render_template('menu.html')
+## Table of Contents
 
-@app.route('/introduction')
-def introduction():
-    return render_template('introduction.html')
+- [Introduction](#introduction)
+- [Scope](#scope)
+- [Normative references](#normative-references)
+- [Terms and definitions](#terms-and-definitions)
+- [Requirements for measurement management systems](#requirements-for-measurement-management-systems)
+- [Management responsibility](#management-responsibility)
+- [Measurement system analysis](#measurement-system-analysis)
+- [Measurement equipment control](#measurement-equipment-control)
+- [Measurement process control](#measurement-process-control)
+- [Data analysis](#data-analysis)
+- [Improvement](#improvement)
 
-@app.route('/scope')
-def scope():
-    return render_template('scope.html')
+## Introduction
 
-@app.route('/normative-references')
-def normative_references():
-    return render_template('normative-references.html')
+In gas stations, accurate and reliable measurement of fuel and other products is critical to ensure customer satisfaction and compliance with regulatory requirements. ISO 10012:2003 provides a framework for the management of measurement processes and the requirements for measurement management systems. By implementing a measurement management system that complies with this standard, gas stations can improve the accuracy and reliability of their measurements and reduce the risk of errors and non-compliance.
 
-@app.route('/terms-and-definitions')
-def terms_and_definitions():
-    return render_template('terms-and-definitions.html')
+## Scope
 
-@app.route('/requirements-for-measurement-management-systems')
-def requirements_for_measurement_management_systems():
-    return render_template('requirements-for-measurement-management-systems.html')
+ISO 10012:2003 is applicable to any organization that performs measurements as part of its activities, including gas stations. The standard is also applicable to all types of measurements, regardless of the measurement method or the type of measurement equipment used.
 
-@app.route('/management-responsibility')
-def management_responsibility():
-    return render_template('management-responsibility.html')
+## Normative references
 
-@app.route('/measurement-system-analysis')
-def measurement_system_analysis():
-    return render_template('measurement-system-analysis.html')
+ISO 9000:2000 - Quality management systems - Fundamentals and vocabulary
+ISO/IEC 17025:1999 - General requirements for the competence of testing and calibration laboratories
 
-@app.route('/measurement-equipment-control')
-def measurement_equipment_control():
-    return render_template('measurement-equipment-control.html')
+## Terms and definitions
 
-@app.route('/measurement-process-control')
-def measurement_process_control():
-    return render_template('measurement-process-control.html')
+The standard provides definitions for the following terms:
 
-@app.route('/data-analysis')
-def data_analysis():
-    return render_template('data-analysis.html')
+- Measurement management system
+- Measurement process
+- Measurement equipment
+- Measurement standard
+- Measurement traceability
+- Measurement uncertainty
+- Calibration
+- Verification
 
-@app.route('/improvement')
-def improvement():
-    return render_template('improvement.html')
+## Requirements for measurement management systems
 
-if __name__ == '__main__':
-    app.run(debug=True)
+The standard outlines the requirements for the implementation and maintenance of a measurement management system. In gas stations, this includes the following:
+
+- Documented procedures for the measurement of fuel and other products, including the use of approved measurement equipment and measurement standards
+- Procedures for the selection and maintenance of measurement equipment, including fuel dispensers and storage tanks
+- Procedures for calibration and verification of measurement equipment
+- Procedures for the handling of non-conforming measurement equipment and processes
+- Procedures for the storage and handling of measurement data
+
+## Management responsibility
+
+The standard specifies the responsibilities of top management in the implementation and maintenance of the measurement management system. In gas stations, this includes the following:
+
+- Ensuring the availability of resources for the implementation and maintenance of the measurement management system
+- Ensuring that the measurement management system is documented, implemented, and maintained
+- Establishing and reviewing the quality policy and objectives related to measurement processes, including the accurate and reliable measurement of fuel and other products
+- Ensuring that all personnel involved in measurement processes are competent
+- Reviewing the effectiveness of the measurement management system
+
+## Measurement system analysis
+
+The standard outlines the requirements for the analysis of measurement systems, including the following:
+
+- Determination of the type
