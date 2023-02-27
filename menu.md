@@ -1,3 +1,9 @@
+title: Gas Station
+description: Your go-to destination for high-quality fuel and excellent customer service.
+markdown: kramdown
+---------------
+
+
 # ISO 10012:2003 in Gas Station
 
 - [Introduction](introduction.md)
