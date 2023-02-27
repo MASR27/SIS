@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Gas Station Dashboard
+layout: default
+title: Home
 ---
+
 
 <div class="row">
   <div class="col-md-4">
